@@ -1,0 +1,78 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.password-container{
+    background-color: beige;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,.5);
+    margin: 10px;
+}
+
+.input-container{
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.password-aleart{
+    position: fixed;
+    background-color: rgb(79, 197, 79);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(120, 25, 44);
+}
+.btn:active{
+    transform: scale(0.9);
+}
+
+.input::placeholder{
+    letter-spacing: 0;
+}
+
+.fa-copy{
+    cursor: pointer;
+    opacity: 0.3;
+}
+.fa-copy:hover{
+    opacity: 0.7;
+}
