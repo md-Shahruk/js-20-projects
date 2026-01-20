@@ -57,6 +57,10 @@ body{
     right: 20px;
     bottom: 20px;
     font-size: 20px;
+    
+}
+.active.password-aleart{
+    right: -300px;
 }
 .btn:hover{
     background-color: rgb(120, 25, 44);
