@@ -1,0 +1,45 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.container{
+    background-color:beige;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 5px ;
+    text-align: center;
+    
+}
+h1{
+    margin-bottom: 15px;
+}
+
+.currecnt-converter{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.currecnt-converter select{
+    padding: 10px;
+}
+.currecnt-converter input{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    text-align: right;
+}
+
+select:focus, input:focus{
+    outline: 0;
+}
