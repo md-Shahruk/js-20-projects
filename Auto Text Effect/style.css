@@ -1,0 +1,14 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
